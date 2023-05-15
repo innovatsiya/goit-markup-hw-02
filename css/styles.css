@@ -27,6 +27,9 @@ color: #2E2F42;
 color: #404bbf
 }
 
+.address{
+    font-style: normal 
+}
 
 .address-links{
 font-style: normal 
@@ -63,8 +66,9 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: #ffffff;
 cursor: pointer;
+background-color: #4D5AE5 
 }
 
 .order-btn:hover{
