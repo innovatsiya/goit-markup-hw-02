@@ -4,6 +4,10 @@ color: #434455;
 background-color:#FFFFFF;
 }
 
+.root{
+
+}
+
 .list{
 list-style: none;
 }
@@ -66,9 +70,9 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #ffffff;
+color: #4d5ae5;
 cursor: pointer;
-background-color: #4D5AE5;
+background-color: #F4F4FD;
 }
 
 .order-btn:hover{
