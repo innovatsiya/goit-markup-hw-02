@@ -82,13 +82,23 @@ background-color: #404BBF;
 font-family: "Roboto", sans-serif;
 background-color:#E7E9FC;
 cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
 }
 
 .btn-items:hover{
 background-color: #404BBF;
+color: #FFFFFF;
 }
 .btn-items:focus{
 background-color: #404BBF;
+color: #FFFFFF;
 }
 .link-logo{
 
