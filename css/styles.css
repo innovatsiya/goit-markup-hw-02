@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+
 :root{
     --btn-color:#F4F4FD;
     --btn-text-color: #4d5ae5;
@@ -9,6 +19,24 @@ color: #434455;
 background-color:#FFFFFF;
 }
 
+.container {
+    max-width: 1128 px;
+    padding: 0 px 15 px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .list{
 list-style: none;
 }
@@ -17,7 +45,9 @@ list-style: none;
 text-decoration: none;
 }
 .header{
-background:#FFFFFF;;
+margin: 0;
+background:#FFFFFF;
+outline: solid teal;
 }
 .header-links{
 font-weight: 500;
@@ -34,8 +64,18 @@ color: #404bbf;
 
 .address{
 font-style: normal;
+
+
+outline: 2px solid red;
+}
+.navigation {
+    outline: 2px solid black;
 }
 
+.address-list {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 .address-links{
 font-style: normal;
 font-weight: 400;
@@ -51,9 +91,12 @@ color: #404bbf;
 } 
 
 .hero{
+margin: 0;
 background: #2E2F42;
+outline: solid tomato;
 }
 .hero-name{
+margin-bottom: 48px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07; 
@@ -70,6 +113,11 @@ letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 background-color: #4D5AE5;
+border-radius: 4px;
+padding: 16px 32px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
 }
 
 .order-btn:hover,
@@ -104,6 +152,12 @@ line-height: 1.17;
 letter-spacing: 0.03em; 
 text-transform: uppercase;
 color: #4D5AE5;
+margin-top: 24px;
+margin-bottom: 24px;
+
+
+
+outline: solid green;
 }
 
 .logo-studio-header{
